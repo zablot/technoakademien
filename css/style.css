@@ -3,8 +3,10 @@ body, html {
     padding: 0px;
     background-color: #171717;
     font-family: cursive;
-	color: #F8F8F2;
-	font-size: 18px;
+    color: #F8F8F2;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .Container {

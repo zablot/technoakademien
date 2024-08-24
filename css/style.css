@@ -2,13 +2,14 @@ body, html {
     margin: 0px;
     padding: 0px;
     background-color: #171717;
-    font-family: 'Trebuchet MS';
+    font-family: cursive;
 	color: #F8F8F2;
+	font-size: 18px;
 }
 
 .Container {
     width: 99%;
-    min-width: 500px;
+    min-width: 400px;
     margin: auto;
 }
 
@@ -41,7 +42,7 @@ nav {
 
 .content {
     width: 100%;
-    height: 700px;
+    height: 450px;
     padding: 10px 0px;
     background-color: #282A36;
 }

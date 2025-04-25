@@ -6,65 +6,65 @@
     <title>Svenska TechnoAkademien</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-	<link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-	<style>
-		body {
-			font-family: 'Montserrat', sans-serif;
-			background-color: #000;
-			color: #fff;
-			overflow-x: hidden;
-		}
-		
-		.logo-font {
-			font-family: 'Audiowide', sans-serif;
-		}
-		
-		.pulse {
-			animation: pulse 2s infinite;
-		}
-		
-		@keyframes pulse {
-			0% { opacity: 0.5; }
-			50% { opacity: 1; }
-			100% { opacity: 0.5; }
-		}
-		
-		.glow {
-			text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
-		}
-		
-		.line-animation {
-			position: relative;
-		}
-		
-		.line-animation::after {
-			content: '';
-			position: absolute;
-			bottom: -5px;
-			left: 0;
-			width: 0;
-			height: 2px;
-			background: #fff;
-			transition: width 0.3s ease;
-		}
-		
-		.line-animation:hover::after {
-			width: 100%;
-		}
-		
-		.stage {
-			perspective: 1000px;
-		}
-		
-		.artist-card {
-			transition: transform 0.5s;
-			transform-style: preserve-3d;
-		}
-		
-		.artist-card:hover {
-			transform: rotateY(10deg) scale(1.05);
-		}
-	</style>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #000;
+            color: #fff;
+            overflow-x: hidden;
+        }
+        
+        .logo-font {
+            font-family: 'Audiowide', sans-serif;
+        }
+        
+        .pulse {
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { opacity: 0.5; }
+            50% { opacity: 1; }
+            100% { opacity: 0.5; }
+        }
+        
+        .glow {
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+        }
+        
+        .line-animation {
+            position: relative;
+        }
+        
+        .line-animation::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: #fff;
+            transition: width 0.3s ease;
+        }
+        
+        .line-animation:hover::after {
+            width: 100%;
+        }
+        
+        .stage {
+            perspective: 1000px;
+        }
+        
+        .artist-card {
+            transition: transform 0.5s;
+            transform-style: preserve-3d;
+        }
+        
+        .artist-card:hover {
+            transform: rotateY(10deg) scale(1.05);
+        }
+    </style>
 </head>
 <body class="min-h-screen">
     <!-- Navigation -->
@@ -99,7 +99,6 @@
         <div class="relative z-10 text-center px-4">
             <h1 class="text-6xl md:text-8xl font-bold mb-6 glow tracking-tighter logo-font">
                 <span class="text-white-500">SVENSKA TECHNOAKADEMIEN</span>
-                
             </h1>
             <h2 class="text-xl md:text-3xl mb-8 tracking-widest">TECHNO FEST SPRING 2025</h2>
             <p class="text-lg md:text-xl mb-10 max-w-2xl mx-auto">24 HOURS OF PURE ENERGY</p>
@@ -137,9 +136,9 @@
                 </div>
                 <div class="relative">
                     <div class="aspect-w-16 aspect-h-9 bg-gray-800 rounded-lg overflow-hidden">
-                        <img src="Img\dancers.jpg" 
-                             alt="Techno festival crowd" 
-                             class="w-full h-full object-cover">
+                        <img src="img/dancers.jpg" 
+                            alt="Techno festival crowd" 
+                            class="w-full h-full object-cover">
                     </div>
                     <div class="absolute -bottom-5 -right-5 bg-purple-500 w-32 h-32 rounded-full opacity-70 -z-10"></div>
                 </div>
@@ -147,18 +146,16 @@
         </div>
     </section>
 
-
     <!-- Tickets Section -->
     <section id="tickets" class="py-20 px-6 bg-black">
         <div class="container mx-auto max-w-2xl">
             <h2 class="text-4xl font-bold mb-16 text-center">TICKETS</h2>
-            
             <div class="bg-gradient-to-b from-gray-900 to-black p-8 rounded-xl border border-gray-500 hover:border-gray-300 transition duration-300">
                 <h3 class="text-3xl font-bold mb-4 text-center">FULL EXPERIENCE PASS</h3>
                 <p class="text-xl text-center text-gray-400 mb-8">Complete 1-day pass</p>
                 <div class="text-5xl font-bold mb-8 text-center">€10</div>
                 <div class="aspect-w-16 aspect-h-9 bg-gray-800 rounded-lg overflow-hidden">
-                    <img src="Img/qr.jpg" 
+                    <img src="img/qr.jpg" 
                         alt="QR for Swish" 
                         class="w-full h-full object-cover">
                 </div>
@@ -173,7 +170,6 @@
     <section id="location" class="py-20 px-6 bg-gray-900">
         <div class="container mx-auto max-w-6xl">
             <h2 class="text-4xl font-bold mb-16 text-center">LOCATION</h2>
-            
             <div class="grid md:grid-cols-2 gap-12 items-center">
                 <div>
                     <h3 class="text-2xl font-bold mb-4">BANDHAGEN CENTRUM</h3>
